@@ -1,0 +1,56 @@
+.bg-humanidades{
+    background-color:  #572364;
+    color: white;
+    font-size: 20px;
+}
+.bg-ciencias {
+    background-color: #4997D0;
+    color: white;
+    font-size: 20px;
+}
+.bg-eco-y-soc {
+    background-color: #ff6600;
+    color: white;
+    font-size: 20px;
+
+}
+
+.bg-jur-y-pol {
+    background-color: #e62f1bf6;
+    color: white;
+    font-size: 20px;
+}
+.bg-artes {
+    background-color: #c39509f8 !important;
+    color: white;
+    font-size: 20px;
+}
+
+
+.list-requisitos {
+    font-size: 20px;
+    border: 2px solid  rgba(195,195,195,0.50 );
+    border-radius: 5px;
+    padding: 25px;
+    
+}
+.list-requisitos li {
+    margin: 8px;
+}
+
+.banner-post{
+    border: 5px solid  rgba(195,195,195,0.50);
+    border-radius: 5px;
+}
+.tabla-costo {
+    border:2px solid  rgba(195,195,195,0.50);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 18px;
+}
+.td-size td{
+    font-size: 18px;
+}

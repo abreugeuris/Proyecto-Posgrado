@@ -1,0 +1,307 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Arial', Times, serif;
+	text-align: justify !important;
+	
+}
+ hr {
+	 border: 1px solid gray;
+ }
+
+/* nav.barnav ul li  {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 18px 2em;
+	text-decoration: none;
+	font-size: 17px;
+	text-align: center;
+  } */
+
+ /* Iconos de las redes sociales */
+.icoredes {
+	margin-top: 50px;
+	
+}
+ .face-ico {
+	font-size: 35px;
+	color:#3B5998;
+ }
+ .insta-ico {
+	border-radius: 10px;
+	color: #fff;
+	font-size: 35px;
+	background: #d6249f;
+	background: radial-gradient(circle at 30% 100%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+	}
+ .twitter-ico {
+	font-size: 35px;
+	color:#1da1f2;
+ }
+ .face-ico:hover, .insta-ico:hover, .twitter-ico:hover {
+	font-size: 50px;
+
+	
+ }
+ /* boton ir arriba */
+ span.ir-arriba {
+
+	 display: inline-block;
+	 position: fixed;
+	 font-size: 60px;
+	 padding: 20px;
+	 color:lightgreen;
+	 cursor: pointer;
+	 bottom: 25px;
+	 right: 12px;
+	 opacity: 0.6;
+	}
+.ir-arriba:hover {
+	color:green;
+	opacity: 1;
+}
+p.ir-arriba {
+	font-size: 20px
+}
+
+
+
+  /*barra de navegacion  */
+.barnav {
+	background-color:darkblue;
+	border: 1px solid rgba(195,195,195,0.50);
+	border-radius: 15px;
+	
+}
+
+.barnav ul {
+	list-style: none;
+	
+}
+.barnav a {
+	text-decoration: none;
+	font-size: 18px;
+	font-family: 'Times New Roman', Times, serif;
+	color: white;
+	
+	
+}
+.barnav li:hover {
+	 background-color:rgb(255, 255, 0, 0.70); 
+	
+	
+}
+.nav-link {
+	/* 0 px arriba y abajo y 3em a la izquierda y a la derecha. */
+	margin: 0px 3em !important; 
+}
+
+/* Lado izquierdo */
+
+.izquierdo ul {
+	background-color:rgb(195,195,195,0.25);
+	border-radius: 15px;
+}
+
+.lista-facultades ul {
+	
+	list-style:  none;
+	margin-top: 10px;
+	
+	
+}
+
+
+.lista-facultades li {
+	font-size: 14px;
+	margin-top: 7px;
+	border: 1px solid rgba(195,195,195);   
+	padding: 4px 3px; 
+	cursor: pointer;
+}
+
+.lista-facultades li:hover {
+	background-color:rgb(255, 255, 0, 0.20)
+}
+.lista-facultades a {
+	text-decoration: none;
+}
+
+  
+ .lisfac ul{
+	list-style: none;
+	text-decoration: none;
+	
+}
+.facultades-list a {
+	text-decoration: none;
+	
+}
+.facultades-list li {
+	margin-top: 10px;
+	border-bottom: 1px solid rgba(195,195,195,0.20);
+	
+}
+.bg-facultades {
+	background-color: rgba(195,195,195,0.15)
+}
+.bg-facultades img {
+	margin-left: 0% !important;
+} 
+
+/* Contenido o centro */
+marquee {
+	background-color:white;
+	
+	
+}
+.autoridades {
+	background-color: rgba(195,195,195,0.20);
+	border-radius: 10px;
+	
+}
+.autoridades h5 ,strong {
+	color: darkblue;
+}
+.autoridades strong {
+	text-decoration: underline;
+}
+.autoridades h6, h5 {
+	font-weight: bold;
+}
+
+.autoridades img {
+	width: 200px;
+	height: 220px;
+	
+	border: 2px solid grey;
+
+}
+marquee h2{
+	color: red;
+}
+
+.contenido table {
+	background-color: rgba(195,195,195,0.20)
+}
+.contenido img {
+	width: 100%;
+	height: 200px;
+	
+	 }
+/* banner de postgrado */
+.banner-post img{
+	width: 100% ;
+	height: 120px;
+
+}
+/* Encabezados de las facultades. */
+.titulo-humanidades {
+	color: #572364;
+}
+.titulo-ciencias {
+	color:#4997D0;
+}
+.titulo-eco-y-soc {
+	color: #ff6600;
+}
+.titulo-jud-y-pol {
+	color: #e62e1b;
+}
+.titulo-artes {
+	color:#c39509f8;
+}
+.titulo-educacion {
+	color: #e0ada9;
+}
+
+/* Lado derecho */
+.derecho img {
+	width: 180px;
+	height: 230px;
+	border: 2px solid grey;
+	
+}
+.nom-dir {
+	margin-bottom: 8px;
+}
+.derecho h5, .derecho h6 {
+	color:blue;
+	font-weight: bold;
+	padding: 2px;
+}
+.derecho p {
+	font-family: 'Times New Roman', Times, serif;
+	text-align: justify;
+	color:black;
+}
+.derecho {
+	background-color: rgba(195,195,195,0.20);
+	border-radius: 10px;
+}
+
+.titulos h5{
+	color: darkblue;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.lista-valores {
+	list-style: square;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+
+/* fooder */
+.centro {
+	margin-top: 30px;
+	background-color: rgba(195,195,195,0.20);
+	border:1px solid rgba(195,195,195,0.15);
+	border-radius: 5px;
+	
+}
+ footer i,a {
+	align-content: flex-end;
+}
+footer h6{
+	color:blue;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 10px;
+}
+footer h3 {
+	margin: 15px;
+	font-weight: bold;
+	font-size: 30px !important;
+}
+.info {
+	margin-left: 25%;
+}
+.info span,.info-contactos h6 {
+	color:blue;
+	font-size: 18px;
+}
+.icoredes-pie {
+	position: sticky;
+	margin-left: 85%;
+	bottom: 10%;
+	right: 10%;
+}
+.copy-right {
+	background-color: darkblue;
+	color: white;
+	font-size: 18px;
+	border: 1px solid rgba(195,195,195,0.50);
+	border-radius: 15px;
+	
+}
+
+
+
+ 
