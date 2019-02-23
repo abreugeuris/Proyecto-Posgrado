@@ -54,3 +54,15 @@ p {
 .td-size td{
     font-size: 18px;
 }
+.plan-estudio-cibermarke {
+    border: 2px solid rgba(195,195,195,0.50 );
+    border-radius:5px; 
+    padding: 10px;
+}
+.portada img {
+    width:80%;
+    
+    border: 2px solid  rgba(195,195,195,0.50 );
+    padding: 5px;
+}
+
